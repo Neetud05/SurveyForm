@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>
+      </title>
+  <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+        
+        <h1 id="title"> Survey Form</h1>
+        <p id="description">Form to collect data</p>
+        <div>
+        <form id="survey-form">
+          <label for="name" id="name-label">
+          Name</label><br>
+          <input type="text" id="name" placeholder="Enter your name" required><br>
+          <label for="email" id="email-label">
+          Email</label><br>
+             <input type="email" id="email" placeholder="Enter your email" required><br>
+             <label for="number" id="number-label">
+             Age(optional)</label><br>
+             <input type="number" id="number" placeholder="Age" min=10 max=60><br>
+             Which option will best describe your role<br>
+             <select id="dropdown">
+             
+               <option>
+                 student
+                 </option>
+                 <option>
+                 Full time job
+                 </option>
+                 <option>
+                 part time job
+                 </option>
+                 <option>
+                 other
+                 </option>
+               </select>
+<br>
+               How you reached to the freecodecamp<br>
+            
+                <input type="radio" name="radio" id="radio" value="insta" class="inline"> Instagram<br>
+               <input type="radio" class="inline" name="wp" value="wp">Whatsapp<br>
+               <input type="radio" class="inline" name="friend" value="friend">Friend<br>
+               Which course do you want to join?<br>
+               <input class="inline" type="checkbox" value="1">Web development<br>
+                <input class="inline" type="checkbox" value="2">App development<br>
+                 <input type="checkbox" class="inline" value="3">Cloud computing <br>
+                  <input type="checkbox" class="inline" value="4">Machine learning<br>
+                   <input type="checkbox" class="inline" value="5">Artificial intelligence<br>
+                    <input type="checkbox" class="inline" value="Data science">Data Science<br>
+
+Any comment or suggestion<br>
+<Textarea rows="10" cols="30" placeholder="Enter your comment..."></textarea>
+<br>
+<input type="submit" id="submit">
+                    </form>  
+                    </div>
